@@ -19,79 +19,105 @@
 % \titleformat{\section}{\normalfont\bfseries}{\thesection}{1em}{}
 % \titlespacing*{\section}{0pt}{10ex}{0pt}
 
-\section{Alice in Wonderland}
+\section{ขั้นตอนการดําเนินงาน}
 
-\begin{figure}
-\begin{center}
-\includegraphics{800px-Briny_Beach.jpg}
-\end{center}
-\caption[Poem]{The Walrus and the Carpenter}
-\label{fig:walrus}
-\end{figure}
+\subsection{ขั้นตอนการเก็บ requirements}
+\subsubsection{สำหรวจปัญหาจากการสอบถาม}
+การสําหรวจจากการสอบถามของตัวแทนนักศึกษา 10 คน โดยมีวัตถุประสงค์เพื่อแก้ปัญหาต่างๆในการใช้
+ชีวิตในมหาวิทยาลัย โดยเน้นไปที่การช่วยเหลือนักศึกษาใหม่ที่เป็นช่วงในการปรับตัวเข้ากับสังคมในมหาวิทยาลัย
 
-\subsection{The Black Kitten}
-  One thing was certain, that the WHITE kitten had had nothing to
-do with it:---it was the black kitten's fault entirely~\cite{aiw}.  For the
-white kitten had been having its face washed by the old cat for
-the last quarter of an hour (and bearing it pretty well,
-considering); so you see that it COULDN'T have had any hand in
-the mischief.
+\subsubsection{วิเคราะห์ปัญหา}
+สามารถสรุปได้เป็นประเด็นดังนี้
+\begin{enumerate}
+  \item การที่เราอยากรู้ถึงวิธีการแก้ปัญหาที่เราเผชิญอยู่นั้นการค้นหาข้อมูลจากอินเทอร์เน็ต โดยส่วนมากการ
+  ค้นหาข้อมูลที่มีลักษณะ เป็นประสบการณ์จากคนที่เคยแก้ปัญหาเรื่องนั้นมาก่อน บางครั้งการค้นหา
+  ข้อมูลลักษณะนี้มักจะหาข้อมูลได้ยาก การใช้คําในการค้นหา ข้อมูลกระจายไปในที่ต่างๆหลากหลาย
+  เวปไชต์ยิ่งต้องใช้เวลาในการเพิ่มไปอีก นอกจากนี้ยิ่งเป็นเรื่องราวเฉพาะพื้นที่ทําให้ข้อมูลยิ่งหายากมาก
+  ขึ้น
+  \item การขอคําปรึกษาจากผู้ที่เรารู้จักนั้น บางครั้งอาจจะได้คําตอบที่ไม่ตรงกับที่คาดหวังอาจเนื่องมาจากผู้
+  ที่เราขอความช่วยเหลื่อไม่มีความรู้หรือประสบการในเรื่องนั้น
+  
+  \item การสอบคําถามนั้นบางครั้งผู้ถามอาจจะเกิดความเขินอายในการที่จะถามในเรื่องนั้นออกไป ทําให้ไม่
+  ความความกล้าในการขอความช่วยเหลือ
+  
+  \item ในกรณีของนักศึกษาใหม่การหาหอพัก สวัสดิการช่วยเหลือของมหาลัยไม่ค่อยเป็นที่พูดถึงในโชเชียลมา
+  กนัก บางครั้งอาจได้รับข้อมูลที่ผิดจากคนที่ไม่มีประสบการณ์และไม่รู้จริง
+\end{enumerate}
 
-  The way Dinah washed her children's faces was this:  first she
-held the poor thing down by its ear with one paw, and then with
-the other paw she rubbed its face all over, the wrong way,
-beginning at the nose:  and just now, as I said, she was hard at
-work on the white kitten, which was lying quite still and trying
-to purr---no doubt feeling that it was all meant for its good.
+\subsubsection{สรุปปัญหาหาแนวทางแก้ไขและออกแบบ}
+\begin{enumerate}
+  \item ออกแบบแอปพลิเคชันที่สามารถเป็นสื่อกลางในการรวบรวมประสบการณ์ต่างๆจากการรีวิว มีการแบ่ง
+  เป็นหมวดหมู่สามารถเข้าถึงได้ง่าย ซึ่งตัวแอปพลิเคชันจะมีวัตถุประสงค์ในการช่วยเหลือนักศึกษามหาวิทยาลัยเชียงใหม่ทําให้มีลักษณะของการรวมคนเฉพาะพื้นที
+  
+  \item ในเรื่องของความน่าเชื่อถือของการีวิวสามารถดูได้จากคะแนนการรีวิวยิ่งคะแนนมาก ความน่าเชื่อถือ
+  ยิ่งมาก
+  \item สามารถถามคําถามเพื่อหาคนที่เราสามารถขอคําปรึกษาจากผู้ที่รู้และมีประสบการณ์ในเรื่องนั้นๆ
+  \item สามารถปิดบังตัวตนเพื่อเพิ่มความกล้าในการขอความช่วยเหลือ
+\end{enumerate}
 
-  But the black kitten had been finished with earlier in the
-afternoon, and so, while Alice was sitting curled up in a corner
-of the great arm-chair, half talking to herself and half asleep,
-the kitten had been having a grand game of romps with the ball of
-worsted Alice had been trying to wind up, and had been rolling it
-up and down till it had all come undone again; and there it was,
-spread over the hearth-rug, all knots and tangles, with the
-kitten running after its own tail in the middle.
+\subsubsection{ขั้นตอนการออกแบบระบบ}
+\begin{enumerate}
+  \item ออกแบบ Use case diagram
+  \item เลือกเทคโนโลยีและเครื่องมือที่จะใช้
+  
+  \item  ออกแบบ UI ใน Figma โดยมีพื้นฐานการออกแบบมาจากการใช้งานแอปพลิชันโซเชียลมีเดียทั่วไป
+  
+\end{enumerate}
+\section{โครงสร้างของแอปพลิเคชัน}
+\subsection{Use case diagram}
+แสดงให้เห็นภาพรวมของการใช้งานระบบดังรูปที่ 3.1 จาก requirement เราสามารถระบุUser คือกลุ่ม
+บุคคลที่ใช้แอปพลิเคชันทั่วไป เมื่อเข้าสู่ระบบมาแล้วสามารถเข้าถึง Use case ต่างๆได้ดังนี้
+\begin{enumerate}
+  \item การรีวิว สามารถสร้างการีวิวเรื่องต่างๆ สามารถเข้ามาอ่านการรีวิว สามารถคอมเม้นและให้คะแนน
+  การรีวิว
+  \item กระดานตั้งกระทู้ถาม-ตอบ สามารถเข้าอ่าน ช่วยตอบข้อสงสังต่างๆผ่านการดานถามตอบปัญหาหรือ
+  สร้างกระทู้ถามคําถามเองก็ได้
+  \item  ระบบสนทนา สามารถเเชทเพื่อปรึกษาหารือกันได้
 
-\subsection{The Reproach}
+\end{enumerate}
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1\textwidth]{./image/user-diagram.jpg}
+  \end{center}
+  \caption[Poem]{Use case diagram}
+  \end{figure}
 
-  `Oh, you wicked little thing!' cried Alice, catching up the
-kitten, and giving it a little kiss to make it understand that it
-was in disgrace.  `Really, Dinah ought to have taught you better
-manners!  You OUGHT, Dinah, you know you ought!' she added,
-looking reproachfully at the old cat, and speaking in as cross a
-voice as she could manage---and then she scrambled back into the
-arm-chair, taking the kitten and the worsted with her, and began
-winding up the ball again.  But she didn't get on very fast, as
-she was talking all the time, sometimes to the kitten, and
-sometimes to herself.  Kitty sat very demurely on her knee,
-pretending to watch the progress of the winding, and now and then
-putting out one paw and gently touching the ball, as if it would
-be glad to help, if it might.
+\subsection{System architecture}
+สถาปัตยกรรมโครงสร้างของระบบในส่วนของการแสดงผลของ mobile application จะใช้java ในการเขียนแอพพลิเคชันและเชื่อมต่อ backend ด้วย firebase โดยบริการที่ใช้ของfirebaseได้แก่ Realtime Database
+,Authentication และ Storage 
 
-  `Do you know what to-morrow is, Kitty?' Alice began.  `You'd
-have guessed if you'd been up in the window with me---only Dinah
-was making you tidy, so you couldn't.  I was watching the boys
-getting in stick for the bonfire---and it wants plenty of
-sticks, Kitty!  Only it got so cold, and it snowed so, they had
-to leave off.  Never mind, Kitty, we'll go and see the bonfire
-to-morrow.'  Here Alice wound two or three turns of the worsted
-round the kitten's neck, just to see how it would look:  this led
-to a scramble, in which the ball rolled down upon the floor, and
-yards and yards of it got unwound again.
+การลงชื่อเข้าใจสามารถลงชื่อผ่านแพลตฟอร์มอื่นได้ เช่น google(ผ่าน firebase Authentication) ,facebook(ผ่าน facebook api) ข้อมูลที่ใช้ในระบบจะถูกเก็บไว้ในฐานข้อมูล
+บน firebase realtime ส่วนการเก็บข้อมูลของรูปภาพจะเก็บไว้ที่ firebase storage สามารถแท็ก location ที่อยู่บน google map  ดังรูปที่ 3.2  
 
-  `Do you know, I was so angry, Kitty,' Alice went on as soon as
-they were comfortably settled again, `when I saw all the mischief
-you had been doing, I was very nearly opening the window, and
-putting you out into the snow!  And you'd have deserved it, you
-little mischievous darling!  What have you got to say for
-yourself?  Now don't interrupt me!' she went on, holding up one
-finger.  `I'm going to tell you all your faults.  Number one:
-you squeaked twice while Dinah was washing your face this
-morning.  Now you can't deny it, Kitty:  I heard you!  What that
-you say?' (pretending that the kitten was speaking.)  `Her paw
-went into your eye?  Well, that's YOUR fault, for keeping your
-eyes open---if you'd shut them tight up, it wouldn't have
-happened.  Now don't make any more excuses, but listen!  Number
-two:  you pulled Snowdrop away by the tail just as I had put down
-the saucer of milk before her!  What, you were thirsty, were you?
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.9\textwidth]{./image/structure.jpg}
+  \end{center}
+  \caption[Poem]{System architecture}
+  \end{figure}
+
+\newpage
+\subsection{Database schema}
+ การเก็บข้อมูลในรูปแบบ NoSQL เก็บเป็น collections ต่างๆ ดังรูปที่ 3.3 
+\begin{enumerate}
+  \item Users จะเก็บข้อมูลของผู้ใช้
+  \item Reviews จะเก็บข้อมูลของการรีวิว
+  \item Rparticipation เก็บข้อมูลการมีส่วนร่วมกับ Reviews เช่น การให้คะแนนรีวิว
+  \item QuestionAns จะเก็บข้อมูลของการกระดานถาม-ตอบ
+  \item Qparticipation เก็บข้อมูลการมีส่วนร่วมกับ QuestionAns เช่น การกดถูกใจ
+  \item MyLocation เก็บรายละเอียดของตำแหน่งที่ตั้ง
+  \item Comments จะเก็บข้อมูลของคอมเมนต์
+  \item MessageList จะเก็บข้อมูลของรายชื่อผู้รับ-ผู้ส่ง
+  \item Chats จะเก็บข้อมูลรายละเอียดเนื้อหาการสนทนา
+\end{enumerate}
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1\textwidth]{./image/database.jpeg}
+  \end{center}
+  \caption[Poem]{System architecture}
+  \end{figure}
+
+
+\section{โครงสร้างของแอปพลิเคชัน}
+\subsection{Use case diagram}
+
